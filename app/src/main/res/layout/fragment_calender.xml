@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg3"
+    tools:context=".Fragment.CalenderFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="Catatan Menstruasi Saya"
+        android:fontFamily="@font/poppinsbold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp">
+    </CalendarView>
+
+    <Button
+        android:id="@+id/suasanaHati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:drawableLeft="@drawable/ic_smile"
+        android:paddingHorizontal="20dp"
+        android:text="   Suasana Hati"
+        android:textAllCaps="false"
+        android:gravity="start|center_vertical"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/berat_badan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonbg"
+        android:drawableLeft="@drawable/ic_timbangan"
+        android:paddingHorizontal="20dp"
+        android:text="   Berat Badan"
+        android:textAllCaps="false"
+        android:gravity="start|center_vertical"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
